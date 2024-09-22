@@ -3,6 +3,7 @@
 ## Unreleased
 
 * add option to set a collection feed's title and backing collection
+* add option to set the feed's logo and icon
 
 ...
 
