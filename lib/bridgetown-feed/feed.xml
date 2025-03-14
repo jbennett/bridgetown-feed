@@ -8,6 +8,7 @@
   <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.url | absolute_url | xml_escape }}</id>
+  <lastBuildDate>{{ "now" | date_to_xmlschema }}</lastBuildDate>
 
   {% assign title = site.metadata.title | default: site.metadata.name %}
   {% if page.collection != "posts" %}
